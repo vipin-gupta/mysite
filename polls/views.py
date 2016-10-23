@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index. let's see what's happening")
+    return HttpResponse("<h1>Hello, world. You're at the polls index. let's see what's happening<h1>")
